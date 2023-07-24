@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- 本地 -->
+      <div class="local">
+        <h2>本地摄像头</h2>
+        <div style="margin-bottom: 10px">
+          <button>开启视频轨道</button>
+          <button>关闭视频轨道</button>
+          <button>开启音频轨道</button>
+          <button>关闭音频轨道</button>
+        </div>
+        <video autoplay></video>
+      </div>
+      <!-- 远程 -->
+      <div class="remote">
+        <h2>远程摄像头</h2>
+        <video autoplay></video>
+      </div>
+
+      <div class="btns">
+        <span>连接服务器</span>
+        <span>断开服务器</span>
+      </div>
+    </div>
+  </body>
+</html>
